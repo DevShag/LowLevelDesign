@@ -18,6 +18,10 @@ public class Board {
 		
 	}
 	
+	public int getSize() {
+		return size;
+	}
+	
 	public boolean addPiece(int row, int column, PlayingPiece playingPiece) {
 		if(board[row][column]!=null) {
 			return false;
